@@ -9,7 +9,7 @@ import numpy as np
 # -------------------------------------------
 st.set_page_config(page_title="Tennis Dashboard", layout="wide")
 
-DATA_PATH = "/Users/klaymouna/Documents/CDSP/projects/final_project/atp_matches_2015_updated.csv"  
+DATA_PATH = os.path.join(os.path.dirname(__file__),"atp_matches_2015_updated.csv")  
 
 @st.cache_data
 def load_data(path):
