@@ -37,3 +37,60 @@ Here are some of the most important insights discovered from the dataset:
 
 ## 🧠 Project Structure
 
+final_project/
+│
+├── app.py
+├── requirements.txt
+│
+├── data/
+│ ├── atp_matches_2015.csv
+│ └── atp_matches_2015_updated.csv
+│
+└── notebooks/
+└── project23.ipynb
+
+---
+
+## 📂 Files Description
+
+| File / Folder | Description |
+|---------------|-------------|
+| `app.py` | Streamlit dashboard application |
+| `requirements.txt` | Python dependencies |
+| `data/atp_matches_2015.csv` | Original dataset |
+| `data/atp_matches_2015_updated.csv` | Cleaned dataset |
+| `notebooks/project23.ipynb` | Full analysis, cleaning, EDA & insights |
+
+---
+
+## 🚀 Technologies Used
+
+- Python  
+- Pandas  
+- Plotly  
+- Streamlit  
+- Jupyter Notebook  
+
+---
+
+## ▶️ How to Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/klaymounaa/Tennis_2015_Dashboard.git
+cd Tennis_2015_Dashboard
+
+Install dependencies:
+pip install -r requirements.txt
+
+Run the Streamlit app:
+streamlit run app.py
+
+📬 Contact
+Khalid Laymouna
+GitHub: https://github.com/klaymounaa
+
+⭐ Acknowledgements
+Dataset sourced from ATP match statistics.
+Dashboard built using Streamlit and Plotly.
